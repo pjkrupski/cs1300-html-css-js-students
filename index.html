@@ -12,15 +12,23 @@
   <body>
     <div id="cs1300-gallery">
       <h1>Welcome to my bakery</h1>
-      <p>Add your own images and styles!</p>
+      <!--<p>Add your own images and styles!</p> -->
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
-      <div class="gallery-container">
-        <img class="gallery-item" src="./assets/jeff.jpg" alt="jeff watching u">
-      </div>
+      
+        <div class="gallery-container">
+          
+          <img class="gallery-item" src="./assets/pastry1.jpg" alt="one">
+          <img class="gallery-item" src="./assets/pastry2.jpg" alt="two">
+          <img class="gallery-item" src="./assets/pastry3.jpg" alt="three">
+          <img class="gallery-item" src="./assets/pastry4.jpg" alt="four">
+          <img class="gallery-item" src="./assets/pastry3.jpg" alt="five">          
+        </div>
+      
 
       <!-- TODO: PART II Uncomment the line below, and hook up this button to display data from an API -->
-      <!-- <button onclick="updatePage()">Press this button to display some fruit data</button> -->
+      <button onclick="updatePage()">Press this button to display some fruit data</button> 
+      <p id = "return-info"></p>
     </div>
   </body>
 
